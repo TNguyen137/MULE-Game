@@ -1,0 +1,12 @@
+body { padding: 4em; }
+#droplet {
+    background-color: lightblue;
+    width: 150px;
+    height: 150px;
+    -webkit-border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 75px;
+    -webkit-border-bottom-right-radius: 75px;
+    -webkit-border-bottom-left-radius: 75px;
+    -webkit-transform:rotate(45deg);
+    box-shadow: 1px 1px 7px #1a1a1a;
+}

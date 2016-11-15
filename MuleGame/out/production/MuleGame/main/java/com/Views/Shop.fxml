@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <GridPane prefHeight="600.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <AnchorPane id="AnchorPane" fx:id="crystite" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.valignment="TOP">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="0.0" layoutY="4.0" pickOnBounds="true" preserveRatio="false">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/factory.png" />
+              </image>
+            </ImageView>
+            <Text layoutX="30.0" layoutY="55.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Crystite">
+              <font>
+                <Font size="40.0" fx:id="x1" />
+              </font>
+            </Text>
+            <Text font="$x1" layoutX="54.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$100" />
+          </children>
+        </AnchorPane>
+        <AnchorPane id="AnchorPane" fx:id="energy75" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.valignment="TOP">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="0.0" layoutY="4.0" pickOnBounds="true" preserveRatio="false">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/factory.png" />
+              </image>
+            </ImageView>
+            <Text font="$x1" layoutX="35.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Energy" />
+            <Text font="$x1" layoutX="63.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$75" />
+          </children>
+        </AnchorPane>
+        <AnchorPane id="AnchorPane" fx:id="energy50" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="3" GridPane.rowIndex="0" GridPane.valignment="TOP">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="0.0" layoutY="4.0" pickOnBounds="true" preserveRatio="false">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/factory.png" />
+              </image>
+            </ImageView>
+            <Text font="$x1" layoutX="15.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Smithore" />
+            <Text font="$x1" layoutX="63.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$50" />
+          </children>
+        </AnchorPane>
+        <AnchorPane id="AnchorPane" fx:id="food" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="4" GridPane.rowIndex="0" GridPane.valignment="TOP">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="0.0" layoutY="4.0" pickOnBounds="true" preserveRatio="false">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="15.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/factory.png" />
+              </image>
+            </ImageView>
+            <Text font="$x1" layoutX="51.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Food" />
+            <Text font="$x1" layoutX="58.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$25" />
+          </children>
+        </AnchorPane>
+        <AnchorPane id="AnchorPane" fx:id="assay" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.valignment="TOP">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="0.0" layoutY="5.0" pickOnBounds="true" preserveRatio="false" rotate="180.0">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="20.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/shop.png" />
+              </image>
+            </ImageView>
+            <Text font="$x1" layoutX="45.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Assay" />
+          </children>
+        </AnchorPane>
+        <AnchorPane id="AnchorPane" fx:id="land" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="TOP">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="0.0" layoutY="5.0" pickOnBounds="true" preserveRatio="false" rotate="180.0">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/shop.png" />
+              </image>
+            </ImageView>
+            <Text font="$x1" layoutX="53.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Land" />
+          </children>
+        </AnchorPane>
+        <AnchorPane id="AnchorPane" fx:id="pub" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="3" GridPane.rowIndex="2" GridPane.valignment="TOP">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="false" rotate="180.0">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/pub.png" />
+              </image>
+            </ImageView>
+            <Text font="$x1" layoutX="53.0" layoutY="258.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PUB" />
+          </children>
+        </AnchorPane>
+        <AnchorPane id="AnchorPane" fx:id="mule" minHeight="-Infinity" minWidth="-Infinity" prefHeight="-1.0" prefWidth="-1.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+          <children>
+            <ImageView fitHeight="270.35589599609375" fitWidth="190.3157958984375" layoutX="1.0" layoutY="5.0" pickOnBounds="true" preserveRatio="false" rotate="180.0">
+              <image>
+                <Image url="@../img/side.png" />
+              </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="21.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true" smooth="false">
+              <image>
+                <Image url="@../img/shop.png" />
+              </image>
+            </ImageView>
+            <Text font="$x1" layoutX="45.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MULE" />
+            <Text font="$x1" layoutX="54.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$100" />
+          </children>
+        </AnchorPane>
+            <AnchorPane fx:id="backToMap" prefHeight="73.0" prefWidth="43.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <children>
+                  <Rectangle fx:id="backToMapRectangle" arcHeight="5.0" arcWidth="5.0" fill="#f6ff1f" height="56.0" layoutX="-30.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
+                  <Text layoutX="-9.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAP" wrappingWidth="73.4765625">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+      </children>
+      <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="193.0" minWidth="10.0" prefWidth="193.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="198.0" minWidth="10.0" prefWidth="190.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="37.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="220.0" minWidth="10.0" prefWidth="191.0" />
+        <ColumnConstraints hgrow="SOMETIMES" maxWidth="189.0" minWidth="10.0" prefWidth="189.0" />
+      </columnConstraints>
+      <rowConstraints>
+        <RowConstraints maxHeight="296.0" minHeight="10.0" prefHeight="279.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="172.0" minHeight="10.0" prefHeight="41.0" vgrow="SOMETIMES" />
+        <RowConstraints maxHeight="303.0" minHeight="10.0" prefHeight="280.0" vgrow="SOMETIMES" />
+      </rowConstraints>
+    </GridPane>
+  </children>
+</AnchorPane>

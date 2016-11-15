@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_45" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <array class="main.java.com.Models.Player" length="4"/>
+  </void>
+  <void method="add">
+   <int>1</int>
+  </void>
+  <void method="add">
+   <int>0</int>
+  </void>
+  <void method="add">
+   <object class="javafx.beans.property.SimpleIntegerProperty"/>
+  </void>
+  <void method="add">
+   <object class="javafx.beans.property.SimpleIntegerProperty"/>
+  </void>
+  <void method="add">
+   <object class="main.java.com.Models.Turn"/>
+  </void>
+  <void method="add">
+   <array class="int" length="1"/>
+  </void>
+  <void method="add">
+   <array class="[Ljavafx.scene.layout.AnchorPane;" length="5">
+    <void index="0">
+     <array class="javafx.scene.layout.AnchorPane" length="9">
+      <void index="0">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutY">
+         <double>-4.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>88.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-4.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>177.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-4.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>266.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-4.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>355.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-5.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>444.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-6.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>533.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-4.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="7">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>622.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-6.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="8">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>711.0</double>
+        </void>
+        <void property="layoutY">
+         <double>-4.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+    <void index="1">
+     <array class="javafx.scene.layout.AnchorPane" length="9">
+      <void index="0">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutY">
+         <double>62.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>88.0</double>
+        </void>
+        <void property="layoutY">
+         <double>62.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>177.0</double>
+        </void>
+        <void property="layoutY">
+         <double>62.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>266.0</double>
+        </void>
+        <void property="layoutY">
+         <double>62.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>355.0</double>
+        </void>
+        <void property="layoutY">
+         <double>61.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>444.0</double>
+        </void>
+        <void property="layoutY">
+         <double>62.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>533.0</double>
+        </void>
+        <void property="layoutY">
+         <double>56.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+        <void property="style">
+         <string>-fx-border-color: Red; -fx-border-width: 4px 4px 4px 4px</string>
+        </void>
+       </object>
+      </void>
+      <void index="7">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>622.0</double>
+        </void>
+        <void property="layoutY">
+         <double>62.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="8">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>711.0</double>
+        </void>
+        <void property="layoutY">
+         <double>60.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+    <void index="2">
+     <array class="javafx.scene.layout.AnchorPane" length="9">
+      <void index="0">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutY">
+         <double>128.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>88.0</double>
+        </void>
+        <void property="layoutY">
+         <double>128.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>177.0</double>
+        </void>
+        <void property="layoutY">
+         <double>128.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>266.0</double>
+        </void>
+        <void property="layoutY">
+         <double>126.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>355.0</double>
+        </void>
+        <void property="layoutY">
+         <double>127.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>444.0</double>
+        </void>
+        <void property="layoutY">
+         <double>126.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>533.0</double>
+        </void>
+        <void property="layoutY">
+         <double>128.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="7">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>622.0</double>
+        </void>
+        <void property="layoutY">
+         <double>126.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="8">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>711.0</double>
+        </void>
+        <void property="layoutY">
+         <double>128.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+    <void index="3">
+     <array class="javafx.scene.layout.AnchorPane" length="9">
+      <void index="0">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutY">
+         <double>195.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>88.0</double>
+        </void>
+        <void property="layoutY">
+         <double>195.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>177.0</double>
+        </void>
+        <void property="layoutY">
+         <double>193.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>266.0</double>
+        </void>
+        <void property="layoutY">
+         <double>195.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>355.0</double>
+        </void>
+        <void property="layoutY">
+         <double>194.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>444.0</double>
+        </void>
+        <void property="layoutY">
+         <double>195.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>533.0</double>
+        </void>
+        <void property="layoutY">
+         <double>193.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="7">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>622.0</double>
+        </void>
+        <void property="layoutY">
+         <double>195.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="8">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>711.0</double>
+        </void>
+        <void property="layoutY">
+         <double>195.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+    <void index="4">
+     <array class="javafx.scene.layout.AnchorPane" length="9">
+      <void index="0">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutY">
+         <double>262.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="1">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>88.0</double>
+        </void>
+        <void property="layoutY">
+         <double>260.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="2">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>177.0</double>
+        </void>
+        <void property="layoutY">
+         <double>262.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="3">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>266.0</double>
+        </void>
+        <void property="layoutY">
+         <double>260.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="4">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>355.0</double>
+        </void>
+        <void property="layoutY">
+         <double>261.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="5">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>444.0</double>
+        </void>
+        <void property="layoutY">
+         <double>260.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="6">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>533.0</double>
+        </void>
+        <void property="layoutY">
+         <double>262.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="7">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>622.0</double>
+        </void>
+        <void property="layoutY">
+         <double>262.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void index="8">
+       <object class="javafx.scene.layout.AnchorPane">
+        <void property="layoutX">
+         <double>711.0</double>
+        </void>
+        <void property="layoutY">
+         <double>262.0</double>
+        </void>
+        <void property="prefHeight">
+         <double>200.0</double>
+        </void>
+        <void property="prefWidth">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+     </array>
+    </void>
+   </array>
+  </void>
+  <void method="add">
+   <array class="[Lmain.java.com.Models.Tile;" length="5">
+    <void index="0">
+     <array class="main.java.com.Models.Tile" length="9">
+      <void index="0">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="1">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="2">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="3">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="4">
+       <object class="main.java.com.Models.RiverTile"/>
+      </void>
+      <void index="5">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="6">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="7">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="8">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+     </array>
+    </void>
+    <void index="1">
+     <array class="main.java.com.Models.Tile" length="9">
+      <void index="0">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="1">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="2">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="3">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="4">
+       <object class="main.java.com.Models.RiverTile"/>
+      </void>
+      <void index="5">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="6">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="7">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="8">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+     </array>
+    </void>
+    <void index="2">
+     <array class="main.java.com.Models.Tile" length="9">
+      <void index="0">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="1">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="2">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="3">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="4">
+       <object class="main.java.com.Models.TownTile"/>
+      </void>
+      <void index="5">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="6">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="7">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="8">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+     </array>
+    </void>
+    <void index="3">
+     <array class="main.java.com.Models.Tile" length="9">
+      <void index="0">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="1">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="2">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="3">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="4">
+       <object class="main.java.com.Models.RiverTile"/>
+      </void>
+      <void index="5">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="6">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="7">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="8">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+     </array>
+    </void>
+    <void index="4">
+     <array class="main.java.com.Models.Tile" length="9">
+      <void index="0">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="1">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="2">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="3">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="4">
+       <object class="main.java.com.Models.RiverTile"/>
+      </void>
+      <void index="5">
+       <object class="main.java.com.Models.RockyTile"/>
+      </void>
+      <void index="6">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="7">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+      <void index="8">
+       <object class="main.java.com.Models.PlainTile"/>
+      </void>
+     </array>
+    </void>
+   </array>
+  </void>
+ </object>
+</java>
